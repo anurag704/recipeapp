@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+*{
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+.App {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.search-form {
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar{
+    width: 50%;
+    padding: 10px;
+    border: none;
+}
+
+.search-button {
+    background: lightcoral;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+.recipe{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;  
+}
+
+@media only screen and (max-width: 770px){
+    .img {
+        width: 70%;
+    }
+}
